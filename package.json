@@ -43,7 +43,7 @@
   "dependencies": {},
   "engine": {},
   "devDependencies": {
-    "babel-preset-es2015": "6.3.13",
+    "babel-preset-env": "^1.7.0",
     "bootstrap": "^3.3.6",
     "grunt": "^0.4.5",
     "grunt-babel": "6.0.0",

@@ -34,7 +34,7 @@ module.exports = function(grunt) {
     },
     babel: {
       options: {
-        presets: ['es2015']
+        presets: ['env']
       },
       dist: {
         src: '<%= pkg.gruntConfig.js.slider %>',
