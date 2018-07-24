@@ -203,6 +203,9 @@
   &.triangle {
     background: transparent none;
   }
+  &.hidden {
+    display: none;
+  }
   &.custom {
     background: transparent none;
     &::before{
@@ -232,6 +235,9 @@
   }
   &.triangle {
     background: transparent none;
+  }
+  &.hidden {
+    display: none;
   }
   &.custom {
     background: transparent none;

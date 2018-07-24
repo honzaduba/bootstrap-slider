@@ -721,15 +721,15 @@ const windowIsDefined = (typeof window === "object");
 
 			if (updateSlider === true) {
 				// Reset classes
-				this._removeClass(this.handle1, 'round triangle');
-				this._removeClass(this.handle2, 'round triangle hide');
+				this._removeClass(this.handle1, 'round triangle custom hidden hide');
+				this._removeClass(this.handle2, 'round triangle custom hidden hide');
 
 				for (i = 0; i < this.ticks.length; i++) {
-					this._removeClass(this.ticks[i], 'round triangle hide');
+					this._removeClass(this.ticks[i], 'round triangle custom hidden hide');
 				}
 			}
 
-			var availableHandleModifiers = ['round', 'triangle', 'custom'];
+			var availableHandleModifiers = ['round', 'triangle', 'custom', 'hidden'];
 			var isValidHandleType = availableHandleModifiers.indexOf(this.options.handle) !== -1;
 			if (isValidHandleType) {
 				this._addClass(this.handle1, this.options.handle);
